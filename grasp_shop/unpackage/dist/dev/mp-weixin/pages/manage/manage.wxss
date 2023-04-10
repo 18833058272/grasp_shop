@@ -1,0 +1,104 @@
+
+.search {
+	width: 510rpx;
+	height: 58rpx;
+}
+.ddinfo {
+	width: 640rpx;
+	background-color: #fff;
+	border-radius: 10rpx;
+	margin: 20rpx auto;
+	padding: 30rpx;
+}
+.ldcont {
+	display: flex;
+}
+.ld {
+	width: 30rpx;
+	height: 30rpx;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAYCAYAAAARfGZ1AAAAAXNSR0IArs4c6QAAArBJREFUSEvtlc9LVFEUx7/n3vHpVFojIUmRi0gkocF3n5mbImxZSBmSYJmBEESrqHX9Ae1sE1SUCynQoGxR2cI2/XDec9KgH5IQWbiqJpGZXnPviTfjiObMGNLSs3z3nM/73nPOe19C4RBKqW0AWgEcAbAbwEYACQDjTDTYMz09dGZm5hSALgDVAN4DuAqgj4Ak5WNHo9GtUsoLRNQtpazI5TAziAgMYHsqhSuTk6hJJvMhHgI4tgyulKoDcA9AXQbE/IaIepl5JJ1Oz4ZCofINxhy4PDV1aX8iUVXk5ueWwJubmyt9339ORLXMnCCi87FY7PrfAAbWAfgCYFMR+NslcNu2h0OhUIvWekpr3RaPx+P5ihmIAPhWBBwc/VqA27bdKYToY+ZZIcTh0dHRkULFnB3sZwDl/6RcKfU62AhmvuN53vFiqhiwAFyb35JCqdmeNzQ0RInoMRFFmLnN87wHK1w52JidAO4Hg8+TG9S3Z+CO47Qycz8A0lpXx+PxHyvBg3PODvQigB4Am7+WlqK/qir1JBLpfDQ+PpBTfkIIcROA77pusAmril2NjXMlzKUlWnfHxsaCDwlQSnUx8w0iSrmuu35V5CxnjpnLiOi067q31uCZTq61Je9C5W2LbdvtAPr/1yoC6PA87y45jjMghDiqtc6okVKuds2xmGGMGSSl1Esi2hO4zOKYN4rALAwRiWX/9Pnnubw8ta+oqakpsLGK5CK7klIaIcQWKaVrjIHv+/vC4fAHACUAfieTyVrLsp4JIQK1yhgzo7VeEBAOh4N3/czroTkVjuMMA2hh5pTWusP3/ReWZe2VUgbzKQPwNBaLHSzUx6JwpdQOAENCiJyfZg2aGcaYdwAOua77cVXwoKi+vr7SsqyzRHQSQA2AT8x8O51O905MTHwvNv0/gZF6CxwqOu0AAAAASUVORK5CYII=);
+	background-size: 100% 100%;
+	margin: 8rpx;
+}
+.ldtext {
+	color: #666666;
+	font-size: 26rpx;
+}
+.zssj {
+	color: #666666;
+	font-size: 15px;
+
+	margin-right: 20rpx;
+}
+.zs {
+	font-size:15px;
+	font-weight: bold;
+}
+.zs1 {
+	color: #53B55DFF;
+}
+.zs2 {
+	color: #EC9908FF;
+}
+.zs3 {
+	color: #1584FCFF;
+}
+.zs4 {
+	color: #FF3C3DFF;
+}
+.zsm {
+	margin: 20rpx 0;
+	line-height: 50rpx;
+	display: flex;
+	justify-content: space-between;
+}
+.remark {
+	color: #333333;
+	font-size: 13px;
+	margin-top: 20rpx;
+}
+.ljjd {
+	width: 48%;
+	height: 60rpx;
+	border-radius: 5rpx;
+	background: #FC4700FF;
+	font-size: 11px;
+	color: #fff;
+	text-align: center;
+	line-height: 60rpx;
+}
+.ckxq {
+	width: 48%;
+	height: 60rpx;
+	border-radius: 5rpx;
+	background: #FFFFFFFF;
+	border: 1rpx solid #9797971A;
+	box-shadow: 2rpx #0000000A;
+	font-size: 11px;
+	color: #000;
+	text-align: center;
+	line-height: 60rpx;
+}
+.ckxq1 {
+	width: 100%;
+	height: 60rpx;
+	border-radius: 5rpx;
+	background: #FFFFFFFF;
+	border: 1rpx solid #9797971A;
+	box-shadow: 2rpx #0000000A;
+	font-size: 11px;
+	color: #000;
+	text-align: center;
+	line-height: 60rpx;
+}
+.kfybt1 {
+	background-color: #FC4700FF;
+	border-radius: 40rpx;
+	color: #fff;
+	line-height: 80rpx;
+	text-align: center;
+	font-size: 12px;
+
+	width: 180rpx;
+}
+

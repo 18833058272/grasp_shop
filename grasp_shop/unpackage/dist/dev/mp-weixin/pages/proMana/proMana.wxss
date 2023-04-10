@@ -1,0 +1,39 @@
+
+.add_shop {
+	margin: 30rpx;
+
+	height: 100rpx;
+	background-color: #fff;
+	box-shadow: 1px 1px 1px 1px #0000000A;
+	text-align: center;
+	line-height: 100rpx;
+	border-radius: 16rpx;
+	font-weight: bold;
+}
+.shop_info {
+	/* display: flex;
+	justify-content: space-between; */
+	background-color: #fff;
+	padding: 30rpx;
+	margin-bottom: 20rpx;
+}
+.shop_dal {
+	display: flex;
+}
+.shop_pic {
+	width: 220rpx;
+	height: 160rpx;
+	background-color: pink;
+}
+.shop_text {
+	color: #333333FF;
+	margin-left: 30rpx;
+	padding: 15rpx 0;
+}
+.shop_icon {
+	width: 25rpx;
+	height: 30rpx;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAXCAYAAAAGAx/kAAAAAXNSR0IArs4c6QAAAiVJREFUOE/t1L+LE0EUB/Dv292EENFF8IKieHhuAqbYhN0l3P0DNoqFFloFQRALwV+ttZ14WAg2gcPqRLCysjDCRSQ4IUkRjaBYaCHYyO2FeOy+JxOSI+ddcpLCyq12mdkP3zdvZsj3/RUiKosIZnw2mLlEvu+vAVgEwDNCIKLTGjokInOzIswcZbPZz7QXkM/nk5lMhqvVajRt7lSoWCwWTdOsAHgfhuG1bre7PgmbCLmueyKRSLwionn9s4g8V0pdGEI7OrMr5DjOnG3bnwDsHyUgohF2frdUOyDf908CWCOiwyLSA5DSgQD8MgwjLSKrvV6v3Ol0NsfBbVChUDhqWdZLIjrFzN8APCKiuwBCEbkH4IFOBmBFKXUZgP4YlLkFOY5zwLbtrk7CzBv9ft9Jp9OeiDwD8DOZTC5EUXQJQEVvXmZ+0mg0ylul6xff948AeEtEx0XkexzHi81m84vneWeJ6KmGUqlUrlarrQdBcJWZH5umiTiOK41G48ogkeu6GcuyXhiGETDzjziOz7RarboeHIfCMMyN2u953k0iGpQpIg+VUrfI87w3hmEsMfNmFEVuu93ujuJOgoZV3DAMY3l4Rq9rqAlgnoiWlFIfxjsxDRpit4nofhzHd3Rp+wAcbLfbX//cH3tBen6pVMrV6/WPU4/I30Dbujbp/PyHBivzbxY7CIJzAFZFJAzDcGGmi03HdV33WCKReA3gnVLq4rSr9jcWYy/Qs62ZVQAAAABJRU5ErkJggg==);
+	background-size: 100% 100%;
+}
+

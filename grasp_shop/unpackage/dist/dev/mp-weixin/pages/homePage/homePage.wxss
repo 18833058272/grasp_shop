@@ -1,0 +1,253 @@
+
+.container {
+	padding-top: 40rpx;
+}
+.title {
+	color: #333333;
+	font-size: 50rpx;
+	margin: 30rpx;
+	font-weight: bold;
+}
+.ddinfo {
+	width: 640rpx;
+	height: 380rpx;
+	background-color: #fff;
+	border-radius: 10rpx;
+	margin: 20rpx auto;
+	padding: 20rpx;
+}
+.ldcont {
+	display: flex;
+}
+.ld {
+	width: 30rpx;
+	height: 30rpx;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAYCAYAAAARfGZ1AAAAAXNSR0IArs4c6QAAArBJREFUSEvtlc9LVFEUx7/n3vHpVFojIUmRi0gkocF3n5mbImxZSBmSYJmBEESrqHX9Ae1sE1SUCynQoGxR2cI2/XDec9KgH5IQWbiqJpGZXnPviTfjiObMGNLSs3z3nM/73nPOe19C4RBKqW0AWgEcAbAbwEYACQDjTDTYMz09dGZm5hSALgDVAN4DuAqgj4Ak5WNHo9GtUsoLRNQtpazI5TAziAgMYHsqhSuTk6hJJvMhHgI4tgyulKoDcA9AXQbE/IaIepl5JJ1Oz4ZCofINxhy4PDV1aX8iUVXk5ueWwJubmyt9339ORLXMnCCi87FY7PrfAAbWAfgCYFMR+NslcNu2h0OhUIvWekpr3RaPx+P5ihmIAPhWBBwc/VqA27bdKYToY+ZZIcTh0dHRkULFnB3sZwDl/6RcKfU62AhmvuN53vFiqhiwAFyb35JCqdmeNzQ0RInoMRFFmLnN87wHK1w52JidAO4Hg8+TG9S3Z+CO47Qycz8A0lpXx+PxHyvBg3PODvQigB4Am7+WlqK/qir1JBLpfDQ+PpBTfkIIcROA77pusAmril2NjXMlzKUlWnfHxsaCDwlQSnUx8w0iSrmuu35V5CxnjpnLiOi067q31uCZTq61Je9C5W2LbdvtAPr/1yoC6PA87y45jjMghDiqtc6okVKuds2xmGGMGSSl1Esi2hO4zOKYN4rALAwRiWX/9Pnnubw8ta+oqakpsLGK5CK7klIaIcQWKaVrjIHv+/vC4fAHACUAfieTyVrLsp4JIQK1yhgzo7VeEBAOh4N3/czroTkVjuMMA2hh5pTWusP3/ReWZe2VUgbzKQPwNBaLHSzUx6JwpdQOAENCiJyfZg2aGcaYdwAOua77cVXwoKi+vr7SsqyzRHQSQA2AT8x8O51O905MTHwvNv0/gZF6CxwqOu0AAAAASUVORK5CYII=);
+	background-size: 100% 100%;
+	margin: 8rpx;
+}
+.ldtext {
+	color: #666666;
+	font-size: 26rpx;
+}
+.zssj {
+	color: #666666;
+	font-size: 15px;
+
+	margin-right: 20rpx;
+}
+.zs {
+
+	font-weight: bold;
+}
+.zsm {
+	margin: 20rpx 0;
+	line-height: 50rpx;
+	display: flex;
+	justify-content: space-between;
+}
+.remark {
+	color: #333333;
+	font-size: 13px;
+	margin-top: 20rpx;
+}
+.ljjd {
+	width: 48%;
+	height: 60rpx;
+	border-radius: 5rpx;
+	background: #FC4700FF;
+	font-size: 11px;
+	color: #fff;
+	text-align: center;
+	line-height: 60rpx;
+}
+.ckxq {
+	width: 48%;
+	height: 60rpx;
+	border-radius: 5rpx;
+	background: #FFFFFFFF;
+	border: 1rpx solid #9797971A;
+	box-shadow: 2rpx #0000000A;
+	font-size: 11px;
+	color: #000;
+	text-align: center;
+	line-height: 60rpx;
+}
+.swiper_list {
+	width: 690rpx;
+	height: 200rpx;
+	margin: 0 auto;
+}
+.sjgl {
+	width: 640rpx;
+	height: 200rpx;
+	background-color: #fff;
+	border-radius: 10rpx;
+	margin: 20rpx auto;
+	margin-top: 150rpx;
+	padding: 40rpx;
+}
+.sjgl_text {
+	color: #333333FF;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 40rpx;
+}
+.sjgl_xq {
+	width: 650rpx;
+	height: 130rpx;
+	marign: 0rpx auto;
+	background-color: #F5F7FBFF;
+	padding: 20rpx 0;
+	box-sizing: border-box;
+	display: flex;
+}
+.sjgl_nr {
+	width: 33%;
+	color: #333333FF;
+	font-size: 13px;
+	font-weight: bold;
+}
+.sjgl_nr1 {
+	height: 100%;
+	border-right: 1px solid #EAEAEAFF;
+	text-align: center;
+}
+.sjgl_nr2 {
+	height: 100%;
+	border-right: 1px solid #EAEAEAFF;
+	text-align: center;
+}
+.sjgl_nr3 {
+	height: 100%;
+
+	text-align: center;
+}
+.shop_list {
+	width: 640rpx;
+	min-height: 180rpx;
+	background-color: #fff;
+	border-radius: 10rpx;
+	margin: 20rpx auto;
+	padding: 40rpx;
+}
+.shop_icon {
+	width: 30rpx;
+	height: 30rpx;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAAXNSR0IArs4c6QAAAb1JREFUSEu11E1rGkEYB/Dn0RFd8JBj02MuVkFwZxy8tE1CLkIOqYeSQyGfIB8gXyHnnPMR0mNfILYWYkHDsCCrVCKE9tKGYApRo+vLM2WhhVLqvhgz14Xff+Y/zw7CAy58QBs88Vwut9Lv96nT6dwusglPXAjxGgCyo9Go0Gw2b8IGeOJSytxsNnuPiN3JZLLdaDQuwwT4di6EyALAGQD8AIAdpdSXoAG+uAul0+lVwzAuEPG74zhPbdu+ChIQCHchKeUaEX0GgN5wONxqtVrf/AIC4y70u6JTABg4jvPCtu2GV0Ao3IVSqdTjZDLZ0lr/1FpvWJb1dV5AaNyFMpnMo0QioQBgMh6PC/PuYCHcDeCc78disaPpdHqglDr83+4XwqWU60RU0VqfIOKeUupuKbhpms+j0egnIiobhlGqVqu9pXTOOS8i4lut9UfG2Mt6vd5dyrRwzp8hYgUA3jDGXtVqNd/HLFDnpmnmI5HIOSKW4/G4ZxV/n8QXF0JsAsAHAKgSUcmyrGu/P/PPd088n89vENE79+FijO36dfxvqB9+TERPBoNBsd1uz52KpUxL0DoC1RIWC1XLffFfXb+kGMCVvVAAAAAASUVORK5CYII=);
+	background-size: 100% 100%;
+	margin-top: 10rpx;
+}
+.new_icon {
+	width: 30rpx;
+	height: 30rpx;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAAXNSR0IArs4c6QAAAZhJREFUSEvtkztLA0EUhe/NDiQEtBFELe0tRK0Uo9goRCzsU6wwbAL5AYJ/ZCezGAhRrNROUFARO0GwspMIKWzEB2FDmLkjAwrGPHYt0ojTzt5zz3znLMIADw5QG/7Fu9L9I1g45wERVaSUF79tked500S002q1tsrl8oudb8PCOb8GgBkAWBNCnMddwDmfAoAzAHhtNBqz1Wr1rUPcdd0hxtghIq4AwJzv+zdRCzjn4wBwDwB1rfVCEATPXzMdgeZyuZFkMnnsOM68UmpRSnnVa0E+n59USt0hYj0Mw9VKpfLw/duubfE8b9QYs09EmUQikfV9/+TnAovCGHMKAO+IuC6EsO7bTs8qWkSO4+whYpaI2l7guu4EY+wWAN6IaEFK+dTtdX17XiwWh5vN5hFjbFkptVQqlS4LhcKY1vreGGPZLgkhHnthi/yJbAapVOoAAGzIRWPMNiK2iGhDSnnXL/BIcTv8iWg3nU5vhmFY01pngiCoRTUplrgV4ZynjTHWebkX49iBRrmKcx/beRyxf+exKA2U+QeAfKMYDCFm1QAAAABJRU5ErkJggg==);
+	background-size: 100% 100%;
+	margin-top: 10rpx;
+	margin-left: 25rpx;
+}
+.new_con {
+	display: flex;
+	margin-bottom: 40rpx;
+}
+.left_img {
+	width: 220rpx;
+	height: 160rpx;
+	background-color: pink;
+	margin-right: 40rpx;
+}
+.right_info {
+	width: calc(100% - 220rpx);
+}
+.shop_name {
+	color: #333333FF;
+	font-size: 13px;
+}
+.edit_icon {
+	width: 30rpx;
+	height: 30rpx;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAAXNSR0IArs4c6QAAArFJREFUSEullU1IVFEUx895M/fN2NAirZCC0oI2Ua1atYlcFS37sGQEn859I4KLwEUQJEFQEISIjvdgLgazwGjjPloFUQvJTRBYExRO5bjxI7q+e+LWG3iYMz7tbd6De+7v/O//nHse+r7fBgAzxpg0xHwQ8SURnauGSykFMy8hokDES0qpGbuGUsqfAOAKITAOW2v9iojOVGPz+fx+RCwHQQCICMxs35eVUs8snIUQMDIyEgseFTA4OOgsLCwExhgL9ABgjpnfhDEXdwy3ipm5bJUCwA0iemg/PM87JYSYZeZfO4J3d3c3uq67aK0AgFtEdLd6It/3J5m5g5lXtg2XUu5CxJXQ236l1HAItqxJALieSCQgCAJ3W/Cenp7WZDI5bz0GgHtEdDOieIqZ2x3HwVQq1Tw0NFSODc9ms5lMJrMcFu+2UupOpBWLAJC13VKpVJLT09N//IoFl1IeQsQS/63e/ahiKeUTAGi3Vmitm8fHx8vVpFvC8/l8CwB8DBUPK6X6I4ofW4+t4rW1tb3FYnGxupbL5V7XhXd2djY1NDT8CIv3QCk1ENk8hYjXHMcBY0yGiFYjSWcB4HhNuJTyBCK+C614RES5yOanAHDFFg8RjxYKhfno5err62Ot9fqmcM/zDgghvoQX5AMRHYsonkTEDmtFIpHYPTo6urxxbNSE9/b27jHGVADAqjkSWvJCKdUmpbSKr4ZWHCaiz5vNo5pwe62NMbbibwHgPCJ+D09QAgDbNfZpHRsb+1Rr0MWCE9Hprq6ufa7rfgtP8E9X7FS5rf77cHMjIrYw80kimttqNNdVbqfdRoDW+uDExMTXrcB2vSbczuhSqdQUhaTT6fVCobAUB1wXHhdQL65un/9vgih8W//QOIm11nbAraLv+xeY+TkApOJsjBljBZ/9DUQTvJ/3DFXJAAAAAElFTkSuQmCC);
+	background-size: 100% 100%;
+	float:right;
+	margin-top: 10rpx;
+	font-weight: 500;
+}
+.shop_con {
+	font-size: 11px;
+	color: #333333FF;
+	font-weight: 400;
+	line-height: 15px;
+	margin: 20rpx 0;
+}
+.shop_pice {
+	display: flex;
+	justify-content: space-between;
+}
+.pice {
+	color: #999999FF;
+	font-size: 11px;
+	line-height: 24px;
+}
+.pice1 {
+	color: #333333FF;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* uview插件相关配置 */
+.indicator {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.indicator__dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 100px;
+  background-color: rgba(255, 255, 255, 0.35);
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+.indicator__dot--active {
+  background-color: #ffffff;
+}
+.indicator-num {
+  padding: 2px 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 100px;
+  width: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.indicator-num__text {
+  color: #FFFFFF;
+  font-size: 12px;
+}
+

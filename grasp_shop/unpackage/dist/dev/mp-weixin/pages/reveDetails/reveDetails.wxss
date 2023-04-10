@@ -1,0 +1,42 @@
+
+.reve {
+	background-color: #fff;
+	margin: 20rpx 0;
+	padding-top: 29rpx;
+	padding-left: 38rpx;
+	padding-bottom: 20rpx;
+	padding-right: 40rpx;
+}
+.ljreve {
+	
+	color: #333333FF;
+	font-size: 15px;
+	font-weight: 500;
+}
+.doreve {
+	color: #333333FF;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20rpx;
+}
+.revelist {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20rpx;
+}
+.revebl {
+	color: #323233FF;
+	font-size: 12px;
+	font-weight: 500;
+}
+.revedol {
+	color: #FC4700FF;
+	font-size: 16px;
+	font-weight: bold;
+}
+.revetime {
+	color: #999999FF;
+	font-size: 11px;
+	font-weight: 500;
+}
+

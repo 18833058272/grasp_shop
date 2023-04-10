@@ -1,0 +1,189 @@
+{
+
+	// 如果您是通过uni_modules形式引入uView，可以忽略此配置
+	// "easycom": {
+	// 	"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	// },
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/homePage/homePage",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/manage/manage",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/verCode/verCode",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/orderDetails/orderDetails",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/proMana/proMana",
+			"style": {
+				"navigationBarTitleText": "商品管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/editShop/editShop",
+			"style": {
+				"navigationBarTitleText": "编辑商品",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/myAccount/myAccount",
+			"style": {
+				"navigationBarTitleText": "我的账户",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/reveDetails/reveDetails",
+			"style": {
+				"navigationBarTitleText": "收入明细",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/withRecords/withRecords",
+			"style": {
+				"navigationBarTitleText": "提现记录",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+		          "path" : "pages/withdrawal/withdrawal",
+		          "style" :                                                                                    
+		          {
+						"navigationStyle":"custom",
+		              "navigationBarTitleText": "提现",
+		              "enablePullDownRefresh": false
+		          }
+
+		      }
+	
+	    ,{
+            "path" : "pages/setUp/setUp",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/merSet/merSet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商家入驻",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/submitted/submitted",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商家入驻",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		// "navigationStyle":"custom",
+		"navigationBarTextStyle": "black",
+
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	//分包加载配置，此配置为小程序的分包加载机制。
+	"subPackages": [{
+		"root": "pages/subPack", //子包的根目录
+		"pages": [{ //这里的配置路径和pages里的一样
+			"path": "list", //配置页面路径，这里要注意，因为root已经选中了文件夹，所以我们只要填写文件名就好
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}]
+	}],
+
+
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#FC4700",
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"list": [{
+				"pagePath": "pages/homePage/homePage",
+				"iconPath": "static/homepageactive.png",
+				"selectedIconPath": "static/homepage.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/manage/manage",
+				"iconPath": "static/listactive.png",
+				"selectedIconPath": "static/list.png",
+				"text": "订单"
+			}, {
+				"pagePath": "pages/me/me",
+				"iconPath": "static/meactive.png",
+				"selectedIconPath": "static/me.png",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

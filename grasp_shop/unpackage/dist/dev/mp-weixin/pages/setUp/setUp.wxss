@@ -1,0 +1,33 @@
+
+.setup {
+	width: 100%;
+	height: 120rpx;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	padding: 40rpx 30rpx;
+	box-sizing: border-box;
+	margin-bottom: 20rpx;
+}
+.rbody {
+	color: #999999FF;
+	font-size: 15px;
+}
+.ricon {
+	width: 30rpx;
+	height: 30rpx;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAVNJREFUSEvV1V1LFWEUxfHfyTQVe9MMFLQPYXZRRH159cJKRAoUxJAUfL3ywgwttuyBLk5nnhnPOdgDc/fM/s9ae+3ZHUM6nSFx3CvQIhawiYu2DtQpeoi3eI5LfMJZG1gdKGrO43UWv0rYaVNYCShqvkhlv/EAazhuAisFVbBQNpqALzgohTUBRc0ZvEnYNb7iewmsKShqTuIjIihxtvPpyWsDqmCRxgluZzFgO4gedj1tQVFsCst4nIBdfBsEKGqGfe/wNJV9xo9usLsoqix8j0cJWsVJv0HPMoHjiASGbXv9ti76EmEYywHewH6v2LWx7gk+pFWRsoB07cvf4Kag2bRrBL/yj37Y74F9iaVMWihZx1EJJO6UKgol0ZObfGel6booAc3lYMaH/Uwl56VKqnt1oOhFKJnOxRd2NYaUWheL7xW2BrnKmzr0z/t11v1/oD/eGzUblPAJ8AAAAABJRU5ErkJggg==);
+	background-size: 100% 100%;
+	display: inline-block;
+	margin-left: 25rpx;
+}
+.ricon1 {
+	width: 30rpx;
+	height: 30rpx;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAAXNSR0IArs4c6QAAAY1JREFUSEvNVbFKA0EQnbm7HHdcwE8QFOzSZPckEfwIy1jYGxBEsBS/wMpCEC2iP2Blm1a93eLS5RMsLJLAedwmO7JKIAS8HFwOHVi2mJm3s2/f7KAQYhsAegDQBgALcsx1XVBKPTLGjvLi5j4UQrx6nrebpukMACgvybIsR2v9xDk/KAQupZx5nmclSdKxLCvOS0JErNVqH41G470QuBCCgiCA0WjUbrVaL0WSisYYWv4vuJRyX2u9E4bh/fKNSlUupWREFAGARsRjxtjdoihKgQshNhDx2XGcPdu2IcuybrPZvFmUYinO4zgOlFK3ruseaq1hOp1eMcbOEZFKVT6vsN/vO0EQ9Gzb7hAREtE15/w0F1wIcQIAm4hoGuxXIyLTfGadAYBbr9chSZKLXPDhcEiGy5/cfDMxk8nkOxYRzf5ZWeXj8fjy7zhfRYXxL6rFUKKUWo9alnWepmmXc74enVfaoYaWyv6WVW+yFrX8dogB177vYyWTKIqiN9/3w0pm6GAw2Mqy7KGK6f8FCnZcQQL1KHwAAAAASUVORK5CYII=);
+	background-size: 100% 100%;
+	display: inline-block;
+	margin-left: 25rpx;
+}
+
